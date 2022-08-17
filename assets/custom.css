@@ -55,6 +55,7 @@ div.TileWrapper > div > div > .banner__buttons, div.TileWrapper > div > div > .b
     width: 100%;
     max-width: unset;
     background-color: #C2A178;
+    opacity: 0.8;
 }
 
 div.TileWrapper > div:nth-child(2) > div > .banner__buttons, div.TileWrapper > div:nth-child(2) > div > .banner__buttons a {
@@ -64,9 +65,14 @@ div.TileWrapper > div:nth-child(2) > div > .banner__buttons, div.TileWrapper > d
 }
 
 
-div.TileWrapper .banner__buttons::after, div.TileWrapper .banner__buttons::before{
-    content: unset!Important;
+.TileWrapper .banner__buttons a::before, .TileWrapper .banner__buttons a::after{
+    content: none!Important;
 }
+
+.TileWrapper .banner__buttons a:hover{
+    opacity: 1;
+}
+
 
 div.TileWrapper > div:nth-child(2) > div > .banner__buttons a{
     color: black!important;
