@@ -85,7 +85,7 @@ div.TileWrapper > div > div > .banner__buttons a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 25px;
-    margin: 100px auto;
+    margin: 0 auto;
     max-width: var(--page-width);
 }
 
