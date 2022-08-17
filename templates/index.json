@@ -63,6 +63,7 @@
     "tile-banner": {
       "type": "tile-banner",
       "settings": {
+        "image_1": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
         "label_1": "Test",
         "label_2": "Test",
         "button_1": "Test",
