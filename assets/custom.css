@@ -29,8 +29,8 @@ div.TileWrapper > div > div{
     justify-content: space-between;
     padding: 75px 30px;
     text-align: center;
-    background-position: center;
-    background-size: cover;
+    background-position: center!important;
+    background-size: cover!important;
 }
 
 div.TileWrapper > div > div > .banner__buttons{
@@ -54,6 +54,7 @@ div.TileWrapper > div > div > .banner__buttons a{
 
 .Icon_Divider img{
     width: 32px;
+    margin-bottom: 20px;
 }
 .Icon_Divider > div{
     display: flex;
