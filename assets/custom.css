@@ -67,3 +67,14 @@ div.TileWrapper > div > div > .banner__buttons a{
     margin: 0;
     text-align: center;
 }
+
+
+/* Featured Items */
+.Slider-template--16374391603443__featured_collection .grid__item {
+
+}
+
+ul li.grid__item:nth-child(2) {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

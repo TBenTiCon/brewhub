@@ -1020,6 +1020,7 @@ summary::-webkit-details-marker {
 @media screen and (min-width: 750px) {
   .grid {
     display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 
     column-gap: var(--grid-desktop-horizontal-spacing);
     row-gap: var(--grid-desktop-vertical-spacing);
@@ -1033,6 +1034,8 @@ summary::-webkit-details-marker {
 .grid__item {
   /*width: calc(33% - var(--grid-mobile-horizontal-spacing) * 3 / 4);*/
   /*max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);*/
+  width: 100%!Important;
+  max-width: unset!important;
   flex-grow: 1;
   flex-shrink: 0;
 }
