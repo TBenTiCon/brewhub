@@ -31,7 +31,7 @@
   {%- endif -%}
 
   <div>
-    {{ section.settings.label_1 | escape }}
+    <p>{{ section.settings.label_1 | escape }}</p>
     <div class="banner__buttons">
         <a{% if section.settings.link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.link_1 }}"{% endif %} class="button button--primary">{{ section.settings.button_1 | escape }}</a>
     </div>
@@ -51,7 +51,7 @@
     {%- endif -%}
 
   <div>
-    {{ section.settings.label_2 | escape }}
+    <p>{{ section.settings.label_2 | escape }}</p>
     <div class="banner__buttons">
       <a{% if section.settings.link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.link_2 }}"{% endif %} class="button button--primary">{{ section.settings.button_2 | escape }}</a>
     </div>

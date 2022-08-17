@@ -7,7 +7,7 @@ div.TileWrapper{
 }
 
 div.TileWrapper >div{
-    height: 350px;
+    height: 400px;
     background-color: lightblue;
 
 }
@@ -27,7 +27,7 @@ div.TileWrapper > div > div{
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
-    padding: 75px 30px;
+    padding: 50px 50px;
     text-align: center;
     background-position: center!important;
     background-size: cover!important;
@@ -41,10 +41,37 @@ div.TileWrapper > div:last-child > div:nth-child(2){
     background-color: #1E1E1E;
 }
 
-div.TileWrapper > div > div > .banner__buttons{
+div.TileWrapper > div > div p{
+    font-family: Aldivaro!important;
+    font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
+div.TileWrapper > div:last-child > div:nth-child(2) p{
+    color: #C2A178;
+
+}
+
+div.TileWrapper > div > div > .banner__buttons, div.TileWrapper > div > div > .banner__buttons a{
     width: 100%;
     max-width: unset;
+    background-color: #C2A178;
 }
+
+div.TileWrapper > div:nth-child(2) > div > .banner__buttons, div.TileWrapper > div:nth-child(2) > div > .banner__buttons a {
+    width: 100%;
+    max-width: unset;
+    background-color: white;
+}
+
+
+div.TileWrapper .banner__buttons::after, div.TileWrapper .banner__buttons::before{
+    content: unset!Important;
+}
+
+div.TileWrapper > div:nth-child(2) > div > .banner__buttons a{
+    color: black!important;
+}
+
 
 div.TileWrapper > div > div > .banner__buttons a{
     width: 100%;
