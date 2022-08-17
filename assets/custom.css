@@ -50,6 +50,9 @@ div.TileWrapper > div > div > .banner__buttons a{
     margin: 100px 10px;
 }
 
+.Icon_Divider img{
+    width: 32px;
+}
 .Icon_Divider > div{
     display: flex;
     flex-direction: column;
