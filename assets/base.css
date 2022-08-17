@@ -2962,3 +2962,37 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+/* FONTS */
+@font-face {
+  font-family: 'Aldivaro';
+  src: url("Aldivaro.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("WorkSans-Regular.ttf") format("truetype"),
+  url("WorkSans-Medium.ttf") format("truetype"),
+  url("WorkSans-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+
+*{
+  font-family: "Open Sans"!important;
+}
+
+h1,h2,h3,h4,h5,h6, h2 span{
+  font-family: Aldivaro!important;
+}
+
+.lead_text{
+  font-family: Aldivaro!important;
+}

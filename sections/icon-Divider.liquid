@@ -2,6 +2,7 @@
 
 
 
+<div class="icon_divider_outer_wrapper">
 <div id="Icon_Divider-{{ section.id }}" class="Icon_Divider">
 
   <div>
@@ -12,24 +13,25 @@
       {%- if section.settings.icon_1 != blank -%}
         <img src="{{ section.settings.icon_1 | img_url: 'small' }}" />
       {%- endif -%}
-      <p>{{ section.settings.icon_text_1 | escape }}</p>
+      <p class="lead_text">{{ section.settings.icon_text_1 | escape }}</p>
       <p>{{ section.settings.icon_sub_1 | escape }}</p>
     </div>
   <div>
     {%- if section.settings.icon_2 != blank -%}
       {{ section.settings.icon_2 | img_url: 'small' }}
     {%- endif -%}
-    <p>{{section.settings.icon_text_2 | escape }}</p>
+    <p class="lead_text">{{section.settings.icon_text_2 | escape }}</p>
     <p>{{ section.settings.icon_sub_2 | escape }}</p>
   </div>
   <div>
     {%- if section.settings.icon_3 != blank -%}
       {{ section.settings.icon_3 | img_url: 'small' }}
     {%- endif -%}
-    <p>{{ section.settings.icon_text_3 | escape }}</p>
+    <p class="lead_text">{{ section.settings.icon_text_3 | escape }}</p>
     <p>{{ section.settings.icon_sub_3 | escape }}</p>
   </div>
 
+</div>
 </div>
 
 {% schema %}

@@ -1,6 +1,6 @@
 .quick-add {
   position: relative;
-  grid-row-start: 4;
+  grid-row-start: 2;
   margin: 0 0 1rem;
   z-index: 1;
 }
@@ -90,7 +90,7 @@
   .quick-add-modal__content {
     bottom: 3.2rem;
   }
-  
+
   .quick-add-modal__content-info > * {
     max-height: 100%;
   }
