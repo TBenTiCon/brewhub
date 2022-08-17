@@ -12,6 +12,12 @@ div.TileWrapper >div{
 
 }
 
+div.TileWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 div.TileWrapper > div:first-child{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -56,7 +62,7 @@ div.TileWrapper > div > div > .banner__buttons a{
 .Icon_Divider > div{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
