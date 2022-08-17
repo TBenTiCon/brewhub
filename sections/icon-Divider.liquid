@@ -10,7 +10,6 @@
 
     <div>
       {%- if section.settings.icon_1 != blank -%}
-        {{ section.settings.icon_1 | img_url: 'small' }}
         <img src="{{ section.settings.icon_1 | img_url: 'small' }}" />
       {%- endif -%}
       <p>{{ section.settings.icon_text_1 | escape }}</p>

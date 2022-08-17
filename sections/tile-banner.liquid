@@ -7,7 +7,7 @@
   <div>
 
   {%- if section.settings.image_1 != blank -%}
-    {{ section.settings.image_1 | img_url: 'small' }}
+    <img src="{{ section.settings.image_1 | img_url: 'small' }}" />
   {%- endif -%}
 
   <div>
@@ -19,13 +19,13 @@
 
 
     {%- if section.settings.image_2 != blank -%}
-      {{ section.settings.image_2 | img_url: 'small' }}
+      <img src="{{ section.settings.image_2 | img_url: 'small' }}" />
     {%- endif -%}
 
   </div>
 <div>
     {%- if section.settings.image_3 != blank -%}
-      {{ section.settings.image_3 | img_url: 'small' }}
+      <img src="{{ section.settings.image_3 | img_url: 'small' }}" />
     {%- endif -%}
 
   <div>
@@ -36,7 +36,7 @@
   </div>
 
   {%- if section.settings.image_4 != blank -%}
-    {{ section.settings.image_4 | img_url: 'small' }}
+    <img src="{{ section.settings.image_4 | img_url: 'small' }}" />
   {%- endif -%}
 </div>
 
