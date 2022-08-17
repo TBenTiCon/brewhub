@@ -7,7 +7,7 @@
   <div>
 
   {%- if section.settings.image_1 != blank -%}
-    {{ section.settings.image_1 | img_url: 'small' }}
+    <img src="{{ section.settings.image_1 | file_img_url: '2048x2048' }}" />
   {%- endif -%}
 
   <div>
