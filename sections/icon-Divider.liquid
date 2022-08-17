@@ -32,14 +32,14 @@
     </div>
   <div>
     {%- if section.settings.icon_2 != blank -%}
-      {{ section.settings.icon_2 | img_url: 'small' }}
+      <img src="{{ section.settings.icon_2 | img_url: 'small' }}" />
     {%- endif -%}
     <p class="lead_text">{{section.settings.icon_text_2 | escape }}</p>
     <p>{{ section.settings.icon_sub_2 | escape }}</p>
   </div>
   <div>
     {%- if section.settings.icon_3 != blank -%}
-      {{ section.settings.icon_3 | img_url: 'small' }}
+      <img src="{{ section.settings.icon_3 | img_url: 'small' }}" />
     {%- endif -%}
     <p class="lead_text">{{ section.settings.icon_text_3 | escape }}</p>
     <p>{{ section.settings.icon_sub_3 | escape }}</p>
