@@ -70,9 +70,9 @@
         "label_1": "Lorem ipsum dolor sit amet",
         "label_2": "Lorem ipsum dolor sit amet",
         "button_1": "Test",
-        "link_1": "https://immatures.de",
+        "link_1": "https:\/\/immatures.de",
         "button_2": "Test",
-        "link_2": "https://immatures.de"
+        "link_2": "https:\/\/immatures.de"
       }
     },
     "rich_text": {
