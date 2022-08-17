@@ -2,13 +2,31 @@
 
 
 
+{%- style -%}
+
+  #firstImage{
+      background: url({{ section.settings.image_1 | image_url: width: 1500 }});
+  }
+  #secondImage{
+  background: url({{ section.settings.image_2 | image_url: width: 1500 }});
+  }
+  #thirdImage{
+  background: url({{ section.settings.image_3 | image_url: width: 1500 }});
+  }
+  #fourthImage{
+  background: url({{ section.settings.image_4 | image_url: width: 1500 }});
+  }
+
+
+{%- endstyle -%}
+
+
 <div id="Tiles-{{ section.id }}" class="TileWrapper">
 
   <div>
 
   {%- if section.settings.image_1 != blank -%}
-    <div>
-    <img src="{{ section.settings.image_1 | img_url: 'small' }}" />
+    <div id="firstImage">
   </div>
   {%- endif -%}
 
@@ -21,16 +39,14 @@
 
 
     {%- if section.settings.image_2 != blank -%}
-      <div>
-      <img src="{{ section.settings.image_2 | img_url: 'small' }}" />
-  </div>
+      <div id="secondImage">
+      </div>
     {%- endif -%}
 
   </div>
 <div>
     {%- if section.settings.image_3 != blank -%}
-      <div>
-      <img src="{{ section.settings.image_3 | img_url: 'small' }}" />
+      <div id="thirdImage">
       </div>
     {%- endif -%}
 
@@ -42,9 +58,8 @@
   </div>
 
   {%- if section.settings.image_4 != blank -%}
-    <div>
-    <img src="{{ section.settings.image_4 | img_url: 'small' }}" />
-</div>
+    <div id="fourthImage">
+    </div>
   {%- endif -%}
 </div>
 
