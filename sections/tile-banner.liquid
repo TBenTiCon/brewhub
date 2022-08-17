@@ -1,0 +1,108 @@
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+
+
+
+<div id="Tiles-{{ section.id }}" class="TileWrapper">
+
+  <div>
+
+  {%- if section.settings.image_1 != blank -%}
+    {{ section.settings.image_1 | img_url: 'small' }}
+  {%- endif -%}
+
+  <div>
+    {{ section.settings.label_1 | escape }}
+    <div class="banner__buttons">
+        <a{% if section.settings.link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.link_1 }}"{% endif %} class="button button--primary">{{ section.settings.button_1 | escape }}</a>
+    </div>
+  </div>
+
+
+    {%- if section.settings.image_2 != blank -%}
+      {{ section.settings.image_2 | img_url: 'small' }}
+    {%- endif -%}
+
+  </div>
+<div>
+    {%- if section.settings.image_3 != blank -%}
+      {{ section.settings.image_3 | img_url: 'small' }}
+    {%- endif -%}
+
+  <div>
+    {{ section.settings.label_2 | escape }}
+    <div class="banner__buttons">
+      <a{% if section.settings.link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.link_2 }}"{% endif %} class="button button--primary">{{ section.settings.button_2 | escape }}</a>
+    </div>
+  </div>
+
+  {%- if section.settings.image_4 != blank -%}
+    {{ section.settings.image_4 | img_url: 'small' }}
+  {%- endif -%}
+</div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Tile Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "First Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Second Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Third Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_4",
+      "label": "Fourth Image"
+    },
+    {
+      "type": "text",
+      "id": "label_1",
+      "default": "Image Banner",
+      "label": "Label | First Text"
+    },
+    {
+      "type": "text",
+      "id": "label_2",
+      "default": "Image banner",
+      "label": "Label | Second Text"
+    },
+    {
+      "type": "text",
+      "id": "button_1",
+      "default": "Image Banner",
+      "label": "Label | First Button"
+    },
+    {
+      "type": "url",
+      "id": "link_1",
+      "default": "/",
+      "label": "Link | First Button"
+    },
+    {
+      "type": "text",
+      "id": "button_2",
+      "default": "Image banner",
+      "label": "Label | Second Button"
+    },{
+      "type": "url",
+      "id": "link_2",
+      "default": "/",
+      "label": "Link | First Button"
+    }
+  ]
+}
+{% endschema %}

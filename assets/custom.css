@@ -1,0 +1,63 @@
+
+/*
+    Tilewrapper
+*/
+div.TileWrapper{
+
+}
+
+div.TileWrapper >div{
+    height: 350px;
+    background-color: lightblue;
+
+}
+
+div.TileWrapper > div:first-child{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+div.TileWrapper > div:last-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+div.TileWrapper > div > div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding: 75px 30px;
+    text-align: center;
+}
+
+div.TileWrapper > div > div > .banner__buttons{
+    width: 100%;
+    max-width: unset;
+}
+
+div.TileWrapper > div > div > .banner__buttons a{
+    width: 100%;
+}
+
+/*
+    Icon Divider
+*/
+
+.Icon_Divider{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 100px 10px;
+}
+
+.Icon_Divider > div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.Icon_Divider p, .Icon_Divider h2{
+    margin: 0;
+    text-align: center;
+}

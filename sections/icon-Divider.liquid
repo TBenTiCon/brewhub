@@ -1,0 +1,100 @@
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+
+
+
+<div id="Icon_Divider-{{ section.id }}" class="Icon_Divider">
+
+  <div>
+    <h2>{{ section.settings.Heading | escape }}</h2>
+  </div>
+
+    <div>
+      {%- if section.settings.icon_1 != blank -%}
+        {{ section.settings.icon_1 | img_url: 'small' }}
+      {%- endif -%}
+      <p>{{ section.settings.icon_text_1 | escape }}</p>
+      <p>{{ section.settings.icon_sub_1 | escape }}</p>
+    </div>
+  <div>
+    {%- if section.settings.icon_2 != blank -%}
+      {{ section.settings.icon_2 | img_url: 'small' }}
+    {%- endif -%}
+    <p>{{section.settings.icon_text_2 | escape }}</p>
+    <p>{{ section.settings.icon_sub_2 | escape }}</p>
+  </div>
+  <div>
+    {%- if section.settings.icon_3 != blank -%}
+      {{ section.settings.icon_3 | img_url: 'small' }}
+    {%- endif -%}
+    <p>{{ section.settings.icon_text_3 | escape }}</p>
+    <p>{{ section.settings.icon_sub_3 | escape }}</p>
+  </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Icon-Divider",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "icon_1",
+      "label": "First Icon"
+    },
+    {
+      "type": "text",
+      "id": "icon_text_1",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Icon Heading | 1"
+    },
+    {
+      "type": "text",
+      "id": "icon_sub_1",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Icon Subtext | 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_2",
+      "label": "Second Icon"
+    },
+    {
+      "type": "text",
+      "id": "icon_text_2",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Icon Heading | 2"
+    },
+    {
+      "type": "text",
+      "id": "icon_sub_2",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Icon Subtext | 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_3",
+      "label": "Third Icon"
+    },
+    {
+      "type": "text",
+      "id": "icon_text_3",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Icon Heading | 3"
+    },
+    {
+      "type": "text",
+      "id": "icon_sub_3",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Icon Subtext | 3"
+    },
+    {
+      "type": "text",
+      "id": "Heading",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Heading"
+    }
+  ]
+}
+{% endschema %}

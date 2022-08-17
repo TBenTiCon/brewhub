@@ -47,6 +47,36 @@
         "show_text_below": false
       }
     },
+    "tile-banner": {
+      "type": "tile-banner",
+      "settings": {
+        "image_1":  "",
+        "image_2":  "",
+        "image_3":  "",
+        "image_4":  "",
+        "label_1":  "Test",
+        "label_2":  "Test",
+        "button_1": "Test",
+        "link_1":  "",
+        "button_2":  "Test",
+        "link_2":  ""
+      }
+    },
+    "icon-Divider": {
+      "type": "icon-Divider",
+      "settings": {
+        "icon_1":  "",
+        "icon_2":  "",
+        "icon_3":  "",
+        "icon_text_1":  "Test",
+        "icon_sub_1":  "Test",
+        "icon_text_2":  "Test",
+        "icon_sub_2":  "Test",
+        "icon_text_3":  "Test",
+        "icon_sub_3":  "Test",
+        "Heading": "Test"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -202,6 +232,8 @@
   },
   "order": [
     "image_banner",
+    "icon-Divider",
+    "tile-banner",
     "rich_text",
     "featured_collection",
     "collage",
