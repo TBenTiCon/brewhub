@@ -7,7 +7,9 @@
   <div>
 
   {%- if section.settings.image_1 != blank -%}
+    <div>
     <img src="{{ section.settings.image_1 | img_url: 'small' }}" />
+  </div>
   {%- endif -%}
 
   <div>
@@ -19,13 +21,17 @@
 
 
     {%- if section.settings.image_2 != blank -%}
+      <div>
       <img src="{{ section.settings.image_2 | img_url: 'small' }}" />
+  </div>
     {%- endif -%}
 
   </div>
 <div>
     {%- if section.settings.image_3 != blank -%}
+      <div>
       <img src="{{ section.settings.image_3 | img_url: 'small' }}" />
+      </div>
     {%- endif -%}
 
   <div>
@@ -36,7 +42,9 @@
   </div>
 
   {%- if section.settings.image_4 != blank -%}
+    <div>
     <img src="{{ section.settings.image_4 | img_url: 'small' }}" />
+</div>
   {%- endif -%}
 </div>
 
