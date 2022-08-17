@@ -150,3 +150,13 @@ ul li.grid__item:nth-child(2) {
 }
 
 
+/* Footer */
+footer{
+    background-color: #1E1E1E!important;
+}
+
+footer p, footer h2, footer a{
+    color: white!Important
+}
+
+
