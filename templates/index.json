@@ -3,18 +3,18 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h0"
           }
         },
         "button": {
@@ -57,7 +57,9 @@
         "icon_sub_2": "Lorem ipsum dolor sit amet, consetetur",
         "icon_text_3": "LOREM IPSUM DOLOR",
         "icon_sub_3": "Lorem ipsum dolor sit amet, consetetur",
-        "Heading": "LOREM IPSUM SIT DOLOR AMET"
+        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "tile-banner": {
@@ -90,11 +92,23 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
+        },
+        "f89f650a-cc7e-4c51-b2b2-f448171c2b87": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "f89f650a-cc7e-4c51-b2b2-f448171c2b87"
       ],
       "settings": {
         "desktop_content_position": "center",
