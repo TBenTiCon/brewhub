@@ -3,18 +3,18 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h0"
           }
         },
         "button": {
@@ -35,6 +35,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/1.png",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -50,14 +51,18 @@
     "icon-Divider": {
       "type": "icon-Divider",
       "settings": {
-        "icon_1": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "icon_1": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.png",
         "icon_text_1": "LOREM IPSUM DOLOR",
         "icon_sub_1": "Lorem ipsum dolor sit amet, consetetur",
+        "icon_2": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
         "icon_text_2": "LOREM IPSUM DOLOR",
         "icon_sub_2": "Lorem ipsum dolor sit amet, consetetur",
+        "icon_3": "shopify:\/\/shop_images\/MicrosoftTeams-image_2.png",
         "icon_text_3": "LOREM IPSUM DOLOR",
         "icon_sub_3": "Lorem ipsum dolor sit amet, consetetur",
-        "Heading": "LOREM IPSUM SIT DOLOR AMET"
+        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "tile-banner": {
@@ -90,11 +95,23 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
+        },
+        "aa3241be-09c7-452d-9f98-782be58fde4b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "aa3241be-09c7-452d-9f98-782be58fde4b"
       ],
       "settings": {
         "desktop_content_position": "center",
