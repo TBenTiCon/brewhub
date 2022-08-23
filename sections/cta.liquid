@@ -18,12 +18,6 @@
     }
   {%- endif -%}
 
-  {%- if section.settings.Heading != blank or section.settings.subHeading != blank -%}
-    .Icon_Divider > div:first-child{
-      align-items: unset;
-    }
-  {%- endif -%}
-
 
   {%- if section.settings.subHeading != blank -%}
     #customSubHeading-{{ section.id }}{
@@ -31,10 +25,9 @@
     }
   {%- endif -%}
 
-  #Icon_Divider-{{ section.id }}{
-    grid-template-columns: {{ section.settings.heading_width }}fr 1fr 1fr 1fr;
-    grid-row-gap: {{ section.settings.row_gap }}px;
-    grid-column-gap: {{ section.settings.column_gap }}px;
+  #cta-{{ section.id }}{
+    display: grid;
+    grid-template-columns: {{ section.settings.heading_width }}fr 2fr;
   }
 
   @media screen and (min-width: 750px) {
@@ -43,15 +36,34 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  #cta-{{ section.id }} > div:first-child{
+    padding: 100px 70px;
+    background-color: #1E1E1E;
+    display:flex;
+    align-items: center;
+    justify-center: center;
+    flex-direction: column;
+  }
+
+  #image-{{ section.id }}{
+    width: 100%;
+    background-size: cover!important;
+    background: url({{ section.settings.image | image_url: width: 1500 }});
+  }
 {%- endstyle -%}
 
 {%- if section.settings.heading_centered -%}
   {%- style -%}
     #Heading-{{ section.id }}{
       text-align: center;
+      line-height: 150%;
+      color: rgb(var(--color-button));
     }
     #customSubHeading-{{ section.id }}{
       text-align: center;
+      color: white;
+      font-weight: 300;
     }
   {%- endstyle -%}
 {%- endif -%}
@@ -59,9 +71,8 @@
 
 
 
-<div class="icon_divider_outer_wrapper section-{{ section.id }}-padding">
-  <div id="Icon_Divider-{{ section.id }}" class="Icon_Divider">
-
+<div class="cta_outer_wrapper section-{{ section.id }}-padding">
+  <div id="cta-{{ section.id }}" class="cta">
     {%- if section.settings.Heading != blank or section.settings.subHeading != blank-%}
       <div>
         {%- if section.settings.Heading != blank -%}
@@ -70,28 +81,29 @@
         {%- if section.settings.subHeading != blank -%}
           <p id="customSubHeading-{{ section.id }}" class="customSubHeading">{{ section.settings.subHeading | escape }}</p>
         {%- endif -%}
-      </div>
-    {%- endif -%}
-
-    {%- for block in section.blocks -%}
-      <div class="icon_divider_tile">
-        {%- if block.settings.icon != blank -%}
-          <img src="{{ block.settings.icon | img_url: 'small' }}" />
+        {%- if section.settings.link != blank -%}
+        <div class="banner__buttons">
+          <a{% if section.settings.link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.link }}"{% endif %} class="button button--primary">{{ section.settings.button | escape }}</a>
+        </div>
         {%- endif -%}
-        <p class="lead_text">{{ block.settings.text | escape }}</p>
-        <p>{{ block.settings.subtext | escape }}</p>
       </div>
-    {%- endfor -%}
+      <div id="image-{{ section.id }}"><div></div></div>
+    {%- endif -%}
 
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "Icon-Divider",
+  "name": "CTA",
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
     {
       "type": "text",
       "id": "Heading",
@@ -103,6 +115,18 @@
       "id": "subHeading",
       "default": "LOREM IPSUM SIT DOLOR AMET",
       "label": "Sub Heading"
+    },
+    {
+      "type": "text",
+      "id": "button",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "default": "/",
+      "label": "Link | First Button"
     },
     {
       "type": "range",
@@ -122,26 +146,6 @@
     },
     {
       "type": "range",
-      "id": "row_gap",
-      "min": 1,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "label": "row gap",
-      "default": 20
-    },
-    {
-      "type": "range",
-      "id": "column_gap",
-      "min": 1,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "label": "column gap",
-      "default": 100
-    },
-    {
-      "type": "range",
       "id": "padding_top",
       "min": 0,
       "max": 100,
@@ -158,32 +162,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 100
-    }
-  ],
-  "blocks": [
-    {
-      "type": "column",
-      "name": "t:sections.multicolumn.blocks.column.name",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "icon",
-          "label": "Icon"
-        },
-        {
-          "type": "text",
-          "id": "text",
-          "default": "LOREM IPSUM DOLOR",
-          "label": "Icon Heading"
-        },
-        {
-          "type": "text",
-          "id": "subtext",
-          "default": "LOREM IPSUM SIT DOLOR AMET",
-          "label": "Icon Subtext"
-        }
-      ]
+      "default": 0
     }
   ]
 }

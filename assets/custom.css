@@ -135,6 +135,10 @@ div.TileWrapper > div > div > .banner__buttons a{
     font-size: 14px;
 }
 
+.icon_divider_tile p:nth-child(3){
+    max-width: 50%;
+}
+
 .Icon_Divider p:nth-child(2){
     line-height: 200%;
     font-size: 12px;

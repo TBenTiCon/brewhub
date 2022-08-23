@@ -51,15 +51,14 @@
     "icon-Divider": {
       "type": "icon-Divider",
       "settings": {
-        "icon_1": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.png",
-        "icon_text_1": "LOREM IPSUM DOLOR",
-        "icon_sub_1": "Lorem ipsum dolor sit amet, consetetur",
-        "icon_2": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
-        "icon_text_2": "LOREM IPSUM DOLOR",
-        "icon_sub_2": "Lorem ipsum dolor sit amet, consetetur",
-        "icon_3": "shopify:\/\/shop_images\/MicrosoftTeams-image_2.png",
-        "icon_text_3": "LOREM IPSUM DOLOR",
-        "icon_sub_3": "Lorem ipsum dolor sit amet, consetetur",
+        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "cta": {
+      "type": "cta",
+      "settings": {
         "Heading": "LOREM IPSUM SIT DOLOR AMET",
         "padding_top": 100,
         "padding_bottom": 100
@@ -155,6 +154,7 @@
     "icon-Divider",
     "tile-banner",
     "rich_text",
-    "featured_collection"
+    "featured_collection",
+    "cta"
   ]
 }

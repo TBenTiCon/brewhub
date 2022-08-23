@@ -4,16 +4,16 @@
 
 {%- style -%}
 
-  #firstImage{
+  #firstImage-{{ section.id }}{
       background: url({{ section.settings.image_1 | image_url: width: 1500 }});
   }
-  #secondImage{
+  #secondImage-{{ section.id }}{
   background: url({{ section.settings.image_2 | image_url: width: 1500 }});
   }
-  #thirdImage{
+  #thirdImage-{{ section.id }}{
   background: url({{ section.settings.image_3 | image_url: width: 1500 }});
   }
-  #fourthImage{
+  #fourthImage-{{ section.id }}{
   background: url({{ section.settings.image_4 | image_url: width: 1500 }});
   }
 
@@ -26,7 +26,7 @@
   <div>
 
   {%- if section.settings.image_1 != blank -%}
-    <div id="firstImage">
+    <div id="firstImage-{{ section.id }}">
   </div>
   {%- endif -%}
 
@@ -39,14 +39,14 @@
 
 
     {%- if section.settings.image_2 != blank -%}
-      <div id="secondImage">
+      <div id="secondImage-{{ section.id }}">
       </div>
     {%- endif -%}
 
   </div>
 <div>
     {%- if section.settings.image_3 != blank -%}
-      <div id="thirdImage">
+      <div id="thirdImage-{{ section.id }}">
       </div>
     {%- endif -%}
 
@@ -58,7 +58,7 @@
   </div>
 
   {%- if section.settings.image_4 != blank -%}
-    <div id="fourthImage">
+    <div id="fourthImage-{{ section.id }}">
     </div>
   {%- endif -%}
 </div>
