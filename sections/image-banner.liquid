@@ -11,7 +11,6 @@
       display: block;
     }
   }
-
   @media screen and (min-width: 750px) {
     #Banner-{{ section.id }}::before,
     #Banner-{{ section.id }} .banner__media::before {
@@ -24,10 +23,16 @@
 {%- endif -%}
 
 {%- style -%}
+
+  #Banner-{{ section.id }}{
+    margin-top: {{ section.settings.margin_top | times: 1 | round: 0 }}px;
+  }
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 {%- endstyle -%}
+
+
 
 <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
   {%- if section.settings.image != blank -%}
@@ -88,6 +93,11 @@
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+
+      {%- if section.settings.companyLogo != blank -%}
+        <img class="headerCompanyLogo" src="{{ section.settings.companyLogo | img_url: 'grande' }}" />
+      {%- endif -%}
+
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'text' -%}
@@ -301,6 +311,25 @@
       "id": "show_text_below",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_below.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.spacing"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": -100,
+      "max": 100,
+      "step": 2.5,
+      "unit": "px",
+      "label": "Margin top",
+      "default": 0
+    },
+    {
+      "type": "image_picker",
+      "id": "companyLogo",
+      "label": "Company Logo"
     }
   ],
   "blocks": [

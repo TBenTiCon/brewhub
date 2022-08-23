@@ -20,6 +20,9 @@
 
   <div>
     <h2>{{ section.settings.Heading | escape }}</h2>
+    {%- if section.settings.subHeading != blank -%}
+      <p class="customSubHeading">{{ section.settings.subHeading | escape }}</p>
+    {%- endif -%}
   </div>
 
     <div>
@@ -109,6 +112,12 @@
       "id": "Heading",
       "default": "LOREM IPSUM SIT DOLOR AMET",
       "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subHeading",
+      "default": "LOREM IPSUM SIT DOLOR AMET",
+      "label": "Sub Heading"
     },
     {
       "type": "range",

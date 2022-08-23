@@ -1,5 +1,13 @@
 
 /*
+    Image Wrapper
+*/
+
+img.headerCompanyLogo{
+    width: 175px;
+}
+
+/*
     Tilewrapper
 */
 div.TileWrapper{
@@ -102,7 +110,7 @@ div.TileWrapper > div > div > .banner__buttons a{
 
 
 .Icon_Divider img{
-    width: 32px;
+    width: 64px;
     margin-bottom: 20px;
 }
 .Icon_Divider > div{
@@ -130,6 +138,10 @@ div.TileWrapper > div > div > .banner__buttons a{
 .Icon_Divider p:nth-child(2){
     line-height: 200%;
     font-size: 12px;
+}
+
+p.customSubHeading{
+    margin-top: 15px;
 }
 
 
@@ -162,5 +174,10 @@ footer p, footer h2, footer a{
 footer p{
     font-size: calc(var(--font-body-scale) * 1.25rem);
     line-height: calc(1 + 0.3 / var(--font-body-scale));
+}
+
+/* Nav */
+.sticky-header{
+
 }
 
