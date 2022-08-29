@@ -136,7 +136,7 @@ div.TileWrapper > div > div > .banner__buttons a{
 }
 
 .icon_divider_tile p:nth-child(3){
-    max-width: 50%;
+    max-width: 75%;
 }
 
 .Icon_Divider p:nth-child(2){
@@ -185,3 +185,66 @@ footer p{
 
 }
 
+
+@media only screen and (max-width: 980px){
+    .Icon_Divider{
+        grid-template-columns: 1fr!important;
+        grid-row-gap: 50px!important;
+    }
+
+    div.TileWrapper > div{
+        grid-template-columns: 1fr!important;
+        height: unset;
+    }
+
+    div.TileWrapper > div > div{
+        min-height: 250px;
+    }
+
+    div.TileWrapper > div > div >p{
+        margin-top: 0;
+    }
+
+    div.TileWrapper > div > div:last-child{
+        display: none!important;
+    }
+
+    ul li.grid__item:nth-child(2){
+        margin-top: unset;
+        margin-bottom: unset;
+        transform: unset;
+    }
+
+    ul li.grid__item {
+        transform: scale(0.85)!important;
+    }
+
+    .cta{
+        grid-template-columns: 1fr!important;
+        text-align: center;
+    }
+
+    .cta >div:first-child{
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .cta >div:last-child{
+        min-height: 250px;
+        grid-row-start: 1;
+    }
+
+    .header{
+        padding-top: 0px;
+    }
+
+    .menu-drawer{
+        top: 0;
+        height: 100vh!important;
+    }
+
+    .header__icon span{
+        z-index: 1000;
+        position: relative;
+    }
+}

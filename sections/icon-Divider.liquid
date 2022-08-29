@@ -12,6 +12,7 @@
   }
 
 
+
   {%- if section.settings.Heading != blank -%}
     #Heading-{{ section.id }}{
       text-align: left;
@@ -60,7 +61,7 @@
 
 
 <div class="icon_divider_outer_wrapper section-{{ section.id }}-padding">
-  <div id="Icon_Divider-{{ section.id }}" class="Icon_Divider">
+  <div id="Icon_Divider-{{ section.id }}" class="Icon_Divider page-width">
 
     {%- if section.settings.Heading != blank or section.settings.subHeading != blank-%}
       <div>
