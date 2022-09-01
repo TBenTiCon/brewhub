@@ -124,7 +124,7 @@
         "heading_width": 2.5,
         "heading_centered": true,
         "row_gap": 50,
-        "column_gap": 100,
+        "column_gap": 50,
         "padding_top": 100,
         "padding_bottom": 100
       }
