@@ -1,14 +1,40 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "icon-Divider": {
+      "type": "icon-Divider",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "cta": {
+      "type": "cta",
+      "settings": {
+        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "tile-banner": {
+      "type": "tile-banner",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/2.png",
+        "image_2": "shopify:\/\/shop_images\/4.png",
+        "image_3": "shopify:\/\/shop_images\/3.png",
+        "image_4": "shopify:\/\/shop_images\/6.png",
+        "label_1": "Lorem ipsum dolor sit amet",
+        "label_2": "Lorem ipsum dolor sit amet",
+        "button_1": "Test",
+        "link_1": "https:\/\/immatures.de",
+        "button_2": "Test",
+        "link_2": "https:\/\/immatures.de"
       }
     }
   },
   "order": [
-    "main"
+    "icon-Divider",
+    "cta",
+    "tile-banner"
   ]
 }
