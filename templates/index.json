@@ -45,21 +45,50 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": false,
+        "margin_top": 0
       }
     },
     "icon-Divider": {
       "type": "icon-Divider",
+      "blocks": {
+        "f2e2ddbb-7bbc-4236-9bba-90358cce5775": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Hops.png",
+            "text": "LOREM IPSUM DOLOR",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "297f6035-ed8e-4b5b-b4d1-d299cb42b349": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Sixpack.png",
+            "text": "LOREM IPSUM DOLOR",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "d96bc36b-b8fe-4b62-a3e3-936e0ac899be": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/House.png",
+            "text": "LOREM IPSUM DOLOR",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        }
+      },
+      "block_order": [
+        "f2e2ddbb-7bbc-4236-9bba-90358cce5775",
+        "297f6035-ed8e-4b5b-b4d1-d299cb42b349",
+        "d96bc36b-b8fe-4b62-a3e3-936e0ac899be"
+      ],
       "settings": {
         "Heading": "LOREM IPSUM SIT DOLOR AMET",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "cta": {
-      "type": "cta",
-      "settings": {
-        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "subHeading": "",
+        "heading_width": 1,
+        "heading_centered": true,
+        "row_gap": 20,
+        "column_gap": 100,
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -146,6 +175,19 @@
         "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
+      }
+    },
+    "cta": {
+      "type": "cta",
+      "settings": {
+        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "subHeading": "LOREM IPSUM SIT DOLOR AMET",
+        "button": "LOREM IPSUM SIT DOLOR AMET",
+        "link": "\/",
+        "heading_width": 1,
+        "heading_centered": true,
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },
