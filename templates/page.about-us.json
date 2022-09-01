@@ -145,7 +145,7 @@
         "heading_width": 1,
         "heading_centered": true,
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 0
       }
     }
   },
