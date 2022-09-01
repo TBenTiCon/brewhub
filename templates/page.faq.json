@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "cta": {
+      "type": "cta",
+      "settings": {
+        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "cta"
+  ]
+}
