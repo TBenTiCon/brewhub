@@ -176,19 +176,6 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "cta": {
-      "type": "cta",
-      "settings": {
-        "Heading": "LOREM IPSUM SIT DOLOR AMET",
-        "subHeading": "LOREM IPSUM SIT DOLOR AMET",
-        "button": "LOREM IPSUM SIT DOLOR AMET",
-        "link": "\/",
-        "heading_width": 1,
-        "heading_centered": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -196,7 +183,6 @@
     "icon-Divider",
     "tile-banner",
     "rich_text",
-    "featured_collection",
-    "cta"
+    "featured_collection"
   ]
 }

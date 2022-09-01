@@ -146,6 +146,7 @@
           "5f4412ec-7e7d-4e52-84eb-799d05962daf": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Logo_weiss.png",
               "image_width": 100,
               "alignment": "center"
             }
