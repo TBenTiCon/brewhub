@@ -16,11 +16,23 @@
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
           }
+        },
+        "3cbec577-b0ec-46ac-81f4-6fb6b0a6bfb5": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Test",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "1662031569590f066a-0",
-        "1662031569590f066a-1"
+        "1662031569590f066a-1",
+        "3cbec577-b0ec-46ac-81f4-6fb6b0a6bfb5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/beer.png",
