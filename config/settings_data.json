@@ -154,7 +154,7 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Legal",
               "menu": "footer"
             }
           },
@@ -162,7 +162,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Info",
-              "menu": "footer"
+              "menu": "footer-second"
             }
           },
           "footer-2": {
