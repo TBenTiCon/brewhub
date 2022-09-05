@@ -110,7 +110,9 @@ div.TileWrapper > div > div > .banner__buttons a{
 
 
 .Icon_Divider img{
-    width: 64px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     margin-bottom: 20px;
 }
 .Icon_Divider > div{
