@@ -161,14 +161,14 @@
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
+              "heading": "Information",
               "menu": "footer-second"
             }
           },
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
+              "heading": "Contact",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
