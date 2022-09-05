@@ -46,7 +46,8 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "margin_top": 0
+        "margin_top": 0,
+        "companyLogo": "shopify:\/\/shop_images\/Logo_weiss_afdbe5bb-a8ee-4e74-b10a-dc7c1ff10764.png"
       }
     },
     "icon-Divider": {
