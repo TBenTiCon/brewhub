@@ -70,9 +70,9 @@
         "16620335682361ab0c-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "My Orders",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p><\/p><p><strong>Where do I receive my order confirmation? <\/strong><\/p><p>Answer: You will receive your order confirmation via mail. If you haven’t received your order confirmation within 24h please contact our support service. <\/p><p> <\/p><p><strong>Where Can I view my order history? <\/strong><\/p><p>Answer: You can find your order history within your account. Follow the link [insert link to order history] to view your order history. <\/p><p> <\/p><p><strong>How long does my order take? <\/strong><\/p><p>Answer: This depends on the availability of the products, the order size as well as the customer location. You can track your order with the link within the order confirmation. <\/p><p> <\/p><p><strong>Can I return my order? <\/strong><\/p><p>Answer: No, our products cannot be turned. <\/p>",
             "page": ""
           }
         }
