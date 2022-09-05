@@ -43,27 +43,27 @@
         "16620335682361ab0c-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Delivery matters",
+            "icon": "chat_bubble",
+            "row_content": "<p><\/p><p><strong>Delivery Methods <\/strong><\/p><p>Answer: Smaller Orders will be sent with Grab. Any bigger order will be sent with a logistic partner. <\/p><p> <\/p><p><strong>Delivery Time  <\/strong><\/p><p>Answer: This depends on the availability of the products, the order size as well as the customer location.  <\/p><p> <\/p><p><strong>Delivery Costs <\/strong><\/p><p>Answer: Depends on the order size as well as the customer location. <\/p>",
             "page": ""
           }
         },
         "16620335682361ab0c-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Payment matters",
+            "icon": "chat_bubble",
+            "row_content": "<p><\/p><p><strong>What are the methods I can pay with? <\/strong><\/p><p>Answer: You are able to pay with credit card, direct transfer as well as MoMo. <\/p><p><strong> <\/strong><\/p><p><strong>Where to I receive an invoice? <\/strong><\/p><p>Answer: the invoice will be sent via mail. <\/p>",
             "page": ""
           }
         },
         "16620335682361ab0c-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "My Account",
+            "icon": "chat_bubble",
+            "row_content": "<p><\/p><p><strong>How can I create an Account? <\/strong><\/p><p>Answer: You can create an account by going to “Log In” and click on “create an account”. Follow the link [insert link to log in] to create an account <\/p><p> <\/p><p><strong>Where do I change my password? <\/strong><\/p><p>Answer: Change your password within your account settings. Follow the link [insert link to password] to change your password.  <\/p><p> <\/p><p><strong>What can I do when I forget my password? <\/strong><\/p><p>Answer: Click on “Forgot password” when you are trying to login. Follow the link [insert link to login] to reset your password.  <\/p><p> <\/p><p><strong>How to change my address? <\/strong><\/p><p>Answer: You can change or add an address within the account settings. Follow the link Follow the link [insert link to address book] to change or add an address.  <\/p><p> <\/p>",
             "page": ""
           }
         },
