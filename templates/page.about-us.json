@@ -37,84 +37,48 @@
         "margin_top": 0
       }
     },
-    "16620319211fbcf165": {
-      "type": "icon-Divider",
+    "166237233120948871": {
+      "type": "image-with-text",
       "blocks": {
-        "19e5d399-3fc4-42c6-b8c2-63ed488d14f3": {
-          "type": "column",
+        "1662372331c368782f-0": {
+          "type": "heading",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+            "heading": "Nice To Meet You!",
+            "heading_size": "h1"
           }
         },
-        "cda9b963-6f72-48d2-ad19-e2aa2dd349bf": {
-          "type": "column",
+        "1662372331c368782f-1": {
+          "type": "text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+            "text": "<p>Welcome to BREWHUB! We are committed to provide quality ingredients and supplies for all the craft brewers in Vietnam. We offer a wide range of products to ensure a convenient one stop shop solution for you to… In the near future, we will extend this range. Stay tuned! <\/p>",
+            "text_style": "body"
           }
         },
-        "39ad81af-a936-475d-9df2-f3ba92f8209c": {
-          "type": "column",
+        "1662372331c368782f-2": {
+          "type": "button",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "8dab2056-c122-4c47-ba47-c43b95fad1b1": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "4fe70af1-620b-4dc8-a113-1347cf8551b0": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "b7a6a08f-169f-4c82-aa48-fa1506b20e32": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "be92018a-bd4c-465f-bfbb-fc38fa56b593": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+            "button_label": "Shop our products",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "19e5d399-3fc4-42c6-b8c2-63ed488d14f3",
-        "cda9b963-6f72-48d2-ad19-e2aa2dd349bf",
-        "39ad81af-a936-475d-9df2-f3ba92f8209c",
-        "8dab2056-c122-4c47-ba47-c43b95fad1b1",
-        "4fe70af1-620b-4dc8-a113-1347cf8551b0",
-        "b7a6a08f-169f-4c82-aa48-fa1506b20e32",
-        "be92018a-bd4c-465f-bfbb-fc38fa56b593"
+        "1662372331c368782f-0",
+        "1662372331c368782f-1",
+        "1662372331c368782f-2"
       ],
       "settings": {
-        "Heading": "LOREM IPSUM SIT",
-        "subHeading": "Welcome to BREWHUB! We are committed to provide quality ingredients and supplies for all the craft brewers in Vietnam. We offer a wide range of products to ensure a convenient one stop shop solution for you to…   In the near future, we will extend this range. Stay tuned!",
-        "heading_width": 2.5,
-        "heading_centered": true,
-        "row_gap": 50,
-        "column_gap": 50,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "image": "shopify:\/\/shop_images\/extract.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cta": {
@@ -127,14 +91,14 @@
         "link": "\/",
         "heading_width": 1,
         "heading_centered": true,
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     }
   },
   "order": [
     "1662031569d7bc30c3",
-    "16620319211fbcf165",
+    "166237233120948871",
     "cta"
   ]
 }
