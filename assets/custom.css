@@ -173,6 +173,10 @@ product-grid ul li.grid__item:nth-child(2){
     transform: scale(1.0);
 }
 
+product-grid ul li.grid__item {
+    transform: scale(1.0);
+}
+
 
 
 
