@@ -167,13 +167,13 @@ ul li.grid__item:nth-child(2) {
     transform: scale(1.1);
 }
 
-product-grid ul li.grid__item:nth-child(2){
+product-grid li.grid__item:nth-child(2){
     margin-top: 0px;
     margin-bottom: 0px;
     transform: scale(1.0);
 }
 
-product-grid ul li.grid__item {
+product-grid li.grid__item {
     transform: scale(1.0);
 }
 
