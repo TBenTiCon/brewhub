@@ -191,7 +191,7 @@ footer p{
   background-color: rgba(0,0,0,0.3);
 }
 
-.header__submenu li a{
+ul.header__submenu li a{
   color: white!important
 }
 
