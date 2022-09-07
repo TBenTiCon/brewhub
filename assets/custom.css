@@ -191,6 +191,10 @@ footer p{
   background-color: rgba(0,0,0,0.3);
 }
 
+.header__submenu li a{
+  color: white!important
+}
+
 
 @media only screen and (max-width: 980px){
     .Icon_Divider{
