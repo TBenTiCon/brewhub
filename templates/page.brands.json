@@ -1,15 +1,89 @@
 {
   "sections": {
-    "cta": {
-      "type": "cta",
+    "1662645711911d0174": {
+      "type": "image-banner",
+      "blocks": {
+        "1662645711120df8e5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover our brands!",
+            "heading_size": "h1"
+          }
+        },
+        "1662645711120df8e5-1": {
+          "type": "text",
+          "settings": {
+            "text": "Learn more about the companies behind our products!",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1662645711120df8e5-0",
+        "1662645711120df8e5-1"
+      ],
       "settings": {
-        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "image": "shopify:\/\/shop_images\/3.png",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0
+      }
+    },
+    "16626459197cdc9b90": {
+      "type": "image-with-text",
+      "blocks": {
+        "16626459188eddf17e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hopsteiner",
+            "heading_size": "h1"
+          }
+        },
+        "16626459188eddf17e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hopsteiner started as a small hop merchant in 1845 and developed into one of the world’s largest trading houses with its own hop farmsand processing plants. The Steiner Group’s success lies in its continuity as a family company, currently in its sixth generation.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16626459188eddf17e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit Hopsteiner",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16626459188eddf17e-0",
+        "16626459188eddf17e-1",
+        "16626459188eddf17e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/531.1_Hops__Lg_S47A0220_CDStuder.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 100
       }
     }
   },
   "order": [
-    "cta"
+    "1662645711911d0174",
+    "16626459197cdc9b90"
   ]
 }
