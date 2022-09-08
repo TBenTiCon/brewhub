@@ -6,8 +6,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "Lorem Ipsum dolor sit amet consetetur",
-            "text_style": "body"
+            "text": "Discover our wide range of products for your craft brewery",
+            "text_style": "subtitle"
           }
         },
         "heading": {
