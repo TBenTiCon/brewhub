@@ -211,6 +211,10 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
     color: black;
 }
 
+#Details-HeaderMenu-2 svg{
+    color: black;
+}
+
 
 @media only screen and (max-width: 980px){
     .Icon_Divider{
