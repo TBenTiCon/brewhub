@@ -215,6 +215,10 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
     color: black;
 }
 
+.icon-account{
+    color: black;
+}
+
 
 @media only screen and (max-width: 980px){
     .Icon_Divider{
