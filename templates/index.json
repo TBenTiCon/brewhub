@@ -57,7 +57,7 @@
           "type": "column",
           "settings": {
             "icon": "shopify:\/\/shop_images\/Hops.png",
-            "text": "LOREM IPSUM DOLOR",
+            "text": "Quality",
             "subtext": "High quality hops from bavaria"
           }
         },
@@ -73,7 +73,7 @@
           "type": "column",
           "settings": {
             "icon": "shopify:\/\/shop_images\/House.png",
-            "text": "LOREM IPSUM DOLOR",
+            "text": "One Stop",
             "subtext": "Providing the ingredients for your craft beer"
           }
         }
