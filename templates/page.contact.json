@@ -13,7 +13,7 @@
         "16620328954823ed4b-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Get in touch with us for feedback, further questions and more.",
             "text_style": "body"
           }
         }
@@ -24,7 +24,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/5.png",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
