@@ -101,11 +101,11 @@
         "image_2": "shopify:\/\/shop_images\/4.png",
         "image_3": "shopify:\/\/shop_images\/3.png",
         "image_4": "shopify:\/\/shop_images\/6.png",
-        "label_1": "Lorem ipsum dolor sit amet",
-        "label_2": "Lorem ipsum dolor sit amet",
-        "button_1": "Test",
+        "label_1": "Learn more about the world of brewing",
+        "label_2": "Discover our brands",
+        "button_1": "Learn More Now",
         "link_1": "https:\/\/immatures.de",
-        "button_2": "Test",
+        "button_2": "Discover Now",
         "link_2": "https:\/\/immatures.de"
       }
     },
@@ -115,20 +115,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Our most popular products<\/p>",
             "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading"
       ],
       "settings": {
         "desktop_content_position": "center",
