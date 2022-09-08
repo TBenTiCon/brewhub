@@ -58,7 +58,7 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Hops.png",
             "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+            "subtext": "High quality hops from bavaria"
           }
         },
         "297f6035-ed8e-4b5b-b4d1-d299cb42b349": {
@@ -74,7 +74,7 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/House.png",
             "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+            "subtext": "Providing the ingredients for your craft beer"
           }
         }
       },
@@ -84,7 +84,7 @@
         "d96bc36b-b8fe-4b62-a3e3-936e0ac899be"
       ],
       "settings": {
-        "Heading": "LOREM IPSUM SIT DOLOR AMET",
+        "Heading": "Your No. 1 adress to purchase for your craft brewery",
         "subHeading": "",
         "heading_width": 1,
         "heading_centered": true,
