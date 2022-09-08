@@ -86,7 +86,7 @@
       "settings": {
         "Heading": "Your No. 1 adress to purchase for your craft brewery",
         "subHeading": "",
-        "heading_width": 1,
+        "heading_width": 1.5,
         "heading_centered": true,
         "row_gap": 20,
         "column_gap": 100,
