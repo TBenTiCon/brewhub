@@ -13,8 +13,8 @@
         "1662031569590f066a-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Learn more about us!",
+            "text_style": "subtitle"
           }
         }
       },
@@ -24,7 +24,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/beer.png",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 30,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
@@ -85,9 +85,9 @@
       "type": "cta",
       "settings": {
         "image": "shopify:\/\/shop_images\/vietnam.png",
-        "Heading": "LOREM IPSUM SIT DOLOR AMET",
-        "subHeading": "LOREM IPSUM SIT DOLOR AMET",
-        "button": "LOREM IPSUM SIT DOLOR AMET",
+        "Heading": "Want to receive more information about us?",
+        "subHeading": "Contact us via Zalo LiveChat or use the contact form.",
+        "button": "Talk to us!",
         "link": "\/",
         "heading_width": 1,
         "heading_centered": true,
