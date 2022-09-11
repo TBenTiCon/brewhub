@@ -293,5 +293,6 @@
     {%- endif -%}
   
 {{ 'arc_language_selector.css' | asset_url | stylesheet_tag }}{{ 'arc_language_selector.js' | asset_url | script_tag }}{% include 'arc_language_selector' %}
-</body>
+{% render 'wholesale-now', customer: customer, template: template, product: product, cart: cart %}
+      </body>
 </html>
