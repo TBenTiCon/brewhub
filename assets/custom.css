@@ -11,6 +11,10 @@ img.headerCompanyLogo{
   border: 0px!important;
 }
 
+.image-with-text__heading.h1{
+  font-size: calc(var(--font-heading-scale) * 2.5rem);
+}
+
 /*
     Tilewrapper
 */
