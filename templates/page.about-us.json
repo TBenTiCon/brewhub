@@ -58,7 +58,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop our products",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
