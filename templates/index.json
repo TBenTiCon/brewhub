@@ -104,9 +104,9 @@
         "label_1": "Learn more about the world of brewing",
         "label_2": "Discover our brands",
         "button_1": "Learn More Now",
-        "link_1": "https:\/\/immatures.de",
+        "link_1": "shopify:\/\/pages\/learning",
         "button_2": "Discover Now",
-        "link_2": "https:\/\/immatures.de"
+        "link_2": "shopify:\/\/pages\/brands"
       }
     },
     "rich_text": {
