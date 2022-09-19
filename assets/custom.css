@@ -227,6 +227,10 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
     display: none!Important;
 }
 
+.cart-icon-bubble{
+    color: black!Important;
+}
+
 
 @media only screen and (max-width: 980px){
     .Icon_Divider{
