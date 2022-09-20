@@ -39,13 +39,80 @@
     },
     "1663691218d1612cb9": {
       "type": "icon-Divider",
+      "blocks": {
+        "0199e731-cfb5-4be9-a418-9a3db6bae7b1": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
+            "text": "Max Mustermann",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "28265895-c930-4acf-97f5-76b2f301c06f": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
+            "text": "Max Mustermann",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "dc196bb9-87c6-4f30-a791-473bc66777bf": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
+            "text": "Max Mustermann",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "641dc722-7bd8-408b-8c06-81ab8ec4649d": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
+            "text": "LOREM IPSUM DOLOR",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "5c10bbb5-96fe-4025-946d-8cf4c780ca26": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
+            "text": "LOREM IPSUM DOLOR",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "b1f00a51-9e47-4b73-9058-59428b1a3a73": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
+            "text": "LOREM IPSUM DOLOR",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        },
+        "5e5bab3f-6eb1-49b3-804d-55089aedbd79": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
+            "text": "LOREM IPSUM DOLOR",
+            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+          }
+        }
+      },
+      "block_order": [
+        "0199e731-cfb5-4be9-a418-9a3db6bae7b1",
+        "28265895-c930-4acf-97f5-76b2f301c06f",
+        "dc196bb9-87c6-4f30-a791-473bc66777bf",
+        "641dc722-7bd8-408b-8c06-81ab8ec4649d",
+        "5c10bbb5-96fe-4025-946d-8cf4c780ca26",
+        "b1f00a51-9e47-4b73-9058-59428b1a3a73",
+        "5e5bab3f-6eb1-49b3-804d-55089aedbd79"
+      ],
       "settings": {
         "Heading": "Meet Our Team",
         "subHeading": "Welcome to BREWHUB! We are committed to provide quality ingredients and supplies for all the craft brewers in Vietnam. We offer a wide range of products to ensure a convenient one stop shop solution for you to…   In the near future, we will extend this range. Stay tuned!",
-        "heading_width": 3,
+        "heading_width": 4,
         "heading_centered": true,
-        "row_gap": 20,
-        "column_gap": 100,
+        "row_gap": 60,
+        "column_gap": 67,
         "padding_top": 100,
         "padding_bottom": 100
       }
