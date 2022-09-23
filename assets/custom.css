@@ -15,6 +15,10 @@ img.headerCompanyLogo{
   font-size: calc(var(--font-heading-scale) * 2.5rem);
 }
 
+.banner:not(.banner--stacked){
+  margin-bottom: 0px!important;
+}
+
 /*
     Tilewrapper
 */
