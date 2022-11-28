@@ -1,6 +1,6 @@
 
 .shopify-policy__title{
-  font-size: calc(var(--font-heading-scale) * 2.4rem);
+  font-size: calc(var(--font-heading-scale) * 2.4rem)!Important;
 }
 
 /*
