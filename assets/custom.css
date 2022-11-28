@@ -15,9 +15,6 @@ img.headerCompanyLogo{
   font-size: calc(var(--font-heading-scale) * 2.5rem);
 }
 
-.banner--mobile-bottom:not(.banner--stacked) .banner__content{
-    display: none!Important;
-}
 
 .banner__content.banner__content--middle-center.page-width{
     display: flex!important;
@@ -261,6 +258,10 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
     .image-with-text .grid__item:first-child{
       margin-right: 00px;
       width: 100%;
+    }
+
+  .banner--mobile-bottom:not(.banner--stacked) .banner__content{
+    display: none!Important;
     }
 
   
