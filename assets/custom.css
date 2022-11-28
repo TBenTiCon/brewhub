@@ -248,6 +248,14 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
 }
 
 
+
+  .image-with-text .grid__item:first-child{
+    margin-right: 50px;
+    width: 40%;
+  }
+
+
+
 @media only screen and (max-width: 980px){
     .Icon_Divider{
         grid-template-columns: 1fr!important;
@@ -309,11 +317,4 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
         z-index: 1000;
         position: relative;
     }
-}
-
-@media screen and (min-width: 750px)
-  .image-with-text .grid__item:first-child{
-    margin-right: 50px;
-    width: 40%;
-  }
 }
