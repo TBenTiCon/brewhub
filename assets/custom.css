@@ -4,6 +4,14 @@
   text-align: left;
 }
 
+.wholesale-now-discount-title{
+    display: none!Important;
+}
+
+.wholesale-now-discount-description{
+    display: none!Important;
+}
+
 /*
     Image Wrapper
 */
