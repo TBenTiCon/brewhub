@@ -37,56 +37,119 @@
         "margin_top": 0
       }
     },
-    "166203245367802c73": {
-      "type": "featured-collection",
+    "b1e06198-abe8-48b7-88e2-9715e7d79e69": {
+      "type": "video",
       "settings": {
-        "title": "Featured collection",
+        "heading": "Hop Breeding",
         "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=OwcYEbbxIac",
         "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 6,
-        "columns_desktop": 3,
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "4c7be13a-4b71-4eff-9f0f-d0c03fddaeb9": {
+      "type": "video",
+      "settings": {
+        "heading": "Influence of Filtration",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=j75wc-hUnKw",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "16620326384277d887": {
-      "type": "featured-collection",
+    "363e4814-b229-46a1-a1a9-ddbf2d59381b": {
+      "type": "video",
       "settings": {
-        "title": "Featured collection",
+        "heading": "Hopping Potential of Eureka",
         "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=uECF7MsZS10",
         "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 6,
-        "columns_desktop": 3,
         "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "38062f70-f2dc-4807-b83b-1b8f7ff23c8c": {
+      "type": "video",
+      "settings": {
+        "heading": "Advanced Hop Products",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=EvghgU7xDeY",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0b54b6a3-5228-4373-ac74-ae1f71b5c66c": {
+      "type": "video",
+      "settings": {
+        "heading": "Application of Hop",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=1Tvj_0keB88",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "15bf9f8e-5545-4475-99df-41be3f0f7b8e": {
+      "type": "video",
+      "settings": {
+        "heading": "Dry Hopping",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=-UKTVF8xwcY",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7ded13b4-2565-4ac7-ba23-e27d40e169e7": {
+      "type": "video",
+      "settings": {
+        "heading": "Hop Oils",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=DydnbpOOD18",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c2dcc0de-f0e8-4779-8341-8e4f77f3b8ef": {
+      "type": "video",
+      "settings": {
+        "heading": "Sustainable Hops",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_hDQP_1eubY",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c4221c84-5856-47d0-b50a-00ac30e49b20": {
+      "type": "video",
+      "settings": {
+        "heading": "Selections",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=wXXA9qSNjdY",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -94,7 +157,14 @@
   },
   "order": [
     "166203234691878728",
-    "166203245367802c73",
-    "16620326384277d887"
+    "b1e06198-abe8-48b7-88e2-9715e7d79e69",
+    "4c7be13a-4b71-4eff-9f0f-d0c03fddaeb9",
+    "363e4814-b229-46a1-a1a9-ddbf2d59381b",
+    "38062f70-f2dc-4807-b83b-1b8f7ff23c8c",
+    "0b54b6a3-5228-4373-ac74-ae1f71b5c66c",
+    "15bf9f8e-5545-4475-99df-41be3f0f7b8e",
+    "7ded13b4-2565-4ac7-ba23-e27d40e169e7",
+    "c2dcc0de-f0e8-4779-8341-8e4f77f3b8ef",
+    "c4221c84-5856-47d0-b50a-00ac30e49b20"
   ]
 }
