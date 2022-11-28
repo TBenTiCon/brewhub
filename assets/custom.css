@@ -312,7 +312,7 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
 }
 
 @media screen and (min-width: 750px)
-  .image-with-text:not(.collapse-corners,.image-with-text--overlap) .image-with-text__media-item{
+  .image-with-text .grid__item:first-child{
     margin-right: 50px;
     width: 40%;
   }
