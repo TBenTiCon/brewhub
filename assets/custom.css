@@ -262,6 +262,8 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
 
   .banner--mobile-bottom:not(.banner--stacked) .banner__content{
     display: none!Important;
+        position: absolute;
+    height: 100%;
     }
 
   
