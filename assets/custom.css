@@ -4,7 +4,7 @@
   text-align: left;
 }
 
-.wholesale-now-discount-title{
+.wholesale-now-discount-title, .wn-discount-log, .wn-next-tier-offers{
     display: none!Important;
 }
 
