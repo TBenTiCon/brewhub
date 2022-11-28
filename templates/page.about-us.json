@@ -37,84 +37,40 @@
         "margin_top": 0
       }
     },
-    "1663691218d1612cb9": {
-      "type": "icon-Divider",
+    "825bce2d-a58c-4790-943b-c661c8c772e3": {
+      "type": "image-with-text",
       "blocks": {
-        "0199e731-cfb5-4be9-a418-9a3db6bae7b1": {
-          "type": "column",
+        "template--15253256208516__825bce2d-a58c-4790-943b-c661c8c772e3-166963128839ca7349-0": {
+          "type": "heading",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "Max Mustermann",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+            "heading": "MEET OUT TEAM",
+            "heading_size": "h1"
           }
         },
-        "28265895-c930-4acf-97f5-76b2f301c06f": {
-          "type": "column",
+        "template--15253256208516__825bce2d-a58c-4790-943b-c661c8c772e3-166963128839ca7349-1": {
+          "type": "text",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "Max Mustermann",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "dc196bb9-87c6-4f30-a791-473bc66777bf": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "Max Mustermann",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "641dc722-7bd8-408b-8c06-81ab8ec4649d": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "5c10bbb5-96fe-4025-946d-8cf4c780ca26": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "b1f00a51-9e47-4b73-9058-59428b1a3a73": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
-          }
-        },
-        "5e5bab3f-6eb1-49b3-804d-55089aedbd79": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/clayton-mpDV4xaFP8c-unsplash.jpg",
-            "text": "LOREM IPSUM DOLOR",
-            "subtext": "LOREM IPSUM SIT DOLOR AMET"
+            "text": "<p>Welcome to BREWHUB! We are committed to provide quality ingredients and supplies for all the craft brewers in Vietnam. We offer a wide range of products to ensure a convenient one stop shop solution for you to…   In the near future, we will extend this range. Stay tuned!<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "0199e731-cfb5-4be9-a418-9a3db6bae7b1",
-        "28265895-c930-4acf-97f5-76b2f301c06f",
-        "dc196bb9-87c6-4f30-a791-473bc66777bf",
-        "641dc722-7bd8-408b-8c06-81ab8ec4649d",
-        "5c10bbb5-96fe-4025-946d-8cf4c780ca26",
-        "b1f00a51-9e47-4b73-9058-59428b1a3a73",
-        "5e5bab3f-6eb1-49b3-804d-55089aedbd79"
+        "template--15253256208516__825bce2d-a58c-4790-943b-c661c8c772e3-166963128839ca7349-0",
+        "template--15253256208516__825bce2d-a58c-4790-943b-c661c8c772e3-166963128839ca7349-1"
       ],
       "settings": {
-        "Heading": "Meet Our Team",
-        "subHeading": "Welcome to BREWHUB! We are committed to provide quality ingredients and supplies for all the craft brewers in Vietnam. We offer a wide range of products to ensure a convenient one stop shop solution for you to…   In the near future, we will extend this range. Stay tuned!",
-        "heading_width": 4,
-        "heading_centered": true,
-        "row_gap": 60,
-        "column_gap": 67,
-        "padding_top": 100,
-        "padding_bottom": 100
+        "image": "shopify:\/\/shop_images\/roberta-keiko-kitahara-santana-RfL3l-I1zhc-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cta": {
@@ -134,7 +90,7 @@
   },
   "order": [
     "1662031569d7bc30c3",
-    "1663691218d1612cb9",
+    "825bce2d-a58c-4790-943b-c661c8c772e3",
     "cta"
   ]
 }
