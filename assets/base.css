@@ -2996,7 +2996,4 @@ h1,h2,h3,h4,h5,h6, h2 span{
   font-family: Aldivaro!important;
 }
 
-.shopify-policy__container .shopify-policy__title{
-  font-size: calc(var(--font-heading-scale) * 2.4rem)!Important;
-}
 
