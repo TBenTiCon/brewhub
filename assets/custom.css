@@ -265,10 +265,7 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
           position: absolute;
     }
 
-  
-  .banner--mobile-bottom:not(.banner--stacked) .banner__content > div{
-      height: 100%;
-    }
+
 
   
     .Icon_Divider{
