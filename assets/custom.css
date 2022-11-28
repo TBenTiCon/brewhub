@@ -257,6 +257,13 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
 
 
 @media only screen and (max-width: 980px){
+
+    .image-with-text .grid__item:first-child{
+      margin-right: 00px;
+      width: 100%;
+    }
+
+  
     .Icon_Divider{
         grid-template-columns: 1fr!important;
         grid-row-gap: 50px!important;
