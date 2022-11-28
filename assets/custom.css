@@ -262,11 +262,11 @@ ul.header__submenu li a.header__menu-item.list-menu__item{
 
   .banner--mobile-bottom:not(.banner--stacked) .banner__content{
     display: flex!Important;
+          position: absolute;
     }
 
   
   .banner--mobile-bottom:not(.banner--stacked) .banner__content > div{
-      position: absolute;
       height: 100%;
     }
 
