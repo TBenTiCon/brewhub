@@ -17,9 +17,13 @@ img.headerCompanyLogo{
 
 .banner--mobile-bottom:not(.banner--stacked) .banner__content{
     display: none!Important;
-    height: 100%;
+}
+
+.banner__content.banner__content--middle-center.page-width{
+      height: 100%;
     width: 100%;
     max-width: 100%;
+    diplay: flex!important;
 }
 
 /*
