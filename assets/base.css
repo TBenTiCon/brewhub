@@ -1,5 +1,9 @@
 /* Color custom properties */
 
+.shopify-policy__title{
+  font-size: calc(var(--font-heading-scale) * 2.4rem)!Important;
+}
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
