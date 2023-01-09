@@ -9,18 +9,10 @@
             "heading": "LEARN WITH US!",
             "heading_size": "h1"
           }
-        },
-        "1662032346576e9dad-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "1662032346576e9dad-0",
-        "1662032346576e9dad-1"
+        "1662032346576e9dad-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3.png",
