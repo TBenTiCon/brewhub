@@ -427,6 +427,9 @@
   "shopify": {
     "pagination": {
       "previous": "Trước"
+    },
+    "links": {
+      "powered_by_shopify": "Powered by Shopify"
     }
   }
 }
