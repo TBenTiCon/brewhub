@@ -22,9 +22,10 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
+        "46bc250c-5be9-418e-9629-b4a4fb3f0d6c": {
+          "type": "custom_liquid",
           "settings": {
+            "custom_liquid": "<span>\n{{ product.variants.first.price | money_with_currency }}\n\/ {{ product.variants.first.weight | weight_with_unit }}\n<\/span>"
           }
         },
         "variant_picker": {
@@ -60,7 +61,7 @@
         "vendor",
         "title",
         "caption",
-        "price",
+        "46bc250c-5be9-418e-9629-b4a4fb3f0d6c",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
