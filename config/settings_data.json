@@ -159,14 +159,16 @@
             "type": "link_list",
             "settings": {
               "heading": "Legal",
-              "menu": "footer"
+              "menu": "footer",
+              "social": false
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "Information",
-              "menu": "footer-second"
+              "menu": "footer-second",
+              "social": true
             }
           },
           "footer-2": {
