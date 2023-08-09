@@ -73,7 +73,7 @@
                       {%- endfor -%}
                       {%- if block.settings.social != false -%}
                         <li>
-                          <a href="https://www.instagram.com/brewhub.vn/?igshid=MzRlODBiNWFlZA%3D%3D" class="">
+                          <a href="https://www.instagram.com/brewhub.vn/?igshid=MzRlODBiNWFlZA%3D%3D" style="text-decoration: none">
                             <img
                               src="{{ block.settings.ig_image | image_url: width: 400 }}"
                               alt="{{ block.settings.ig_image.alt | escape }}"
@@ -83,8 +83,7 @@
                               style="width: 32px; height: 32px;"
                             >
                           </a>
-                        <a href="www.facebook.com/brewhubvn" class="">
-                            <a href="https://www.instagram.com/brewhub.vn/?igshid=MzRlODBiNWFlZA%3D%3D" class="">
+                          <a href="www.facebook.com/brewhubvn" style="text-decoration: none">
                             <img
                               src="{{ block.settings.fb_image | image_url: width: 400 }}"
                               alt="{{ block.settings.fb_image.alt | escape }}"
@@ -94,9 +93,7 @@
                               style="width: 32px; height: 32px;"
                             >
                           </a>
-                          </a>
-                          <a href="www.linkedin.com/company/brewhubvn" class="">
-                            <a href="https://www.instagram.com/brewhub.vn/?igshid=MzRlODBiNWFlZA%3D%3D" class="">
+                          <a href="www.linkedin.com/company/brewhubvn" style="text-decoration: none">
                             <img
                               src="{{ block.settings.li_image | image_url: width: 400 }}"
                               alt="{{ block.settings.li_image.alt | escape }}"
@@ -105,7 +102,6 @@
                               height="{{ block.settings.li_image.height }}"
                               style="width: 32px; height: 32px;"
                             >
-                          </a>
                           </a>
                         </li>
                       {%- endif -%}
