@@ -168,7 +168,8 @@
             "settings": {
               "heading": "Information",
               "menu": "footer-second",
-              "social": true
+              "social": true,
+              "ig_image": "shopify:\/\/shop_images\/pngwing.com.png"
             }
           },
           "footer-2": {
