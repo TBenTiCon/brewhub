@@ -171,7 +171,7 @@
               "social": true,
               "ig_image": "shopify:\/\/shop_images\/pngwing.com.png",
               "fb_image": "shopify:\/\/shop_images\/pngwing.com_1.png",
-              "li_image": "shopify:\/\/shop_images\/pngwing.com_3.png"
+              "li_image": "shopify:\/\/shop_images\/pngwing.com_2.png"
             }
           },
           "footer-2": {
@@ -213,7 +213,15 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "5061257265103808445": {
+        "type": "shopify:\/\/apps\/ez-term-and-condition-checkbox\/blocks\/embed-block\/471882a9-9b1b-4918-8943-6c66b60c94ea",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
