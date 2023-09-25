@@ -236,7 +236,7 @@
       "subtotal": "Tổng phụ",
       "new_subtotal": "Tổng phụ mới",
       "note": "Hướng dẫn đặc biệt của đơn hàng",
-      "checkout": "Thanh toán",
+      "checkout": "Nộp đơn đặt hàng",
       "empty": "Giỏ hàng của bạn đang trống",
       "cart_error": "Đã xảy ra lỗi khi cập nhật giỏ hàng. Vui lòng thử lại.",
       "cart_quantity_error_html": "Bạn chỉ có thể thêm {{ quantity }} mặt hàng này vào giỏ hàng.",
