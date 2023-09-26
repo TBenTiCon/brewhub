@@ -434,7 +434,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".shopify-policy__container {width: 60%; min-width: 60%; margin-bottom: 3%;}"
+      ".shopify-policy__container {min-width: 60%; margin-bottom: 3%;}"
     ]
   }
 }
