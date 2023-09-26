@@ -125,6 +125,9 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "custom_css": [
+          ".shopify-policy__container {width: 60%; min-width: 60%;}"
+        ],
         "settings": {
         }
       },
