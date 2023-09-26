@@ -431,5 +431,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".shopify-policy__container {width: 60%; min-width: 60%;}"
+    ]
   }
 }
