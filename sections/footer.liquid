@@ -66,7 +66,8 @@
                     <ul class="footer-block__details-content list-unstyled">
                       {%- for link in block.settings.menu.links -%}
                         <li>
-                        {% if request.path contains ".vn/vi" %}
+                        {% assign full_url = request.host | append: request.path %}
+                        {% if full_url contains ".vn/vi" %}
                           {% assign link_url = link.url | replace: ".vn/", ".vn/vi/" %}
                         {% else %}
                           {% assign link_url = link.url %}
