@@ -66,7 +66,13 @@
                     <ul class="footer-block__details-content list-unstyled">
                       {%- for link in block.settings.menu.links -%}
                         <li>
-                          <a href="{{ link.url | replace: ".vn/", ".vn/vi/" }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
+                        {% if request.path contains ".vn/vi" %}
+                          {% assign link_url = link.url | replace: ".vn/", ".vn/vi/" %}
+                        {% else %}
+                          {% assign link_url = link.url %}
+                        {% endif %}
+                        
+                          <a href="{{ link_url }}" class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}">
                             {{ link.title }}
                           </a>
                         </li>
