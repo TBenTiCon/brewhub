@@ -434,9 +434,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".shopify-policy__container {min-width: 60%; margin-bottom: 3%;}",
-      "@font-face {font-family: \"Alfa Slab One\"; src: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0601\/1627\/1236\/files\/AlfaSlabOne-Regular.ttf?v=1695884722\") format(\"truetype\");}",
-      "h1,h2,h3,h4,h5 {color: red !important; font-family: \"Alfa Slab One\" !important;}"
+      ".shopify-policy__container {min-width: 60%; margin-bottom: 3%;}"
     ]
   }
 }
