@@ -3017,7 +3017,7 @@ li {
   display: block;
 }
 
-li:before {
+ol > li:before {
   content: counters(item, ".") " " !important;
   counter-increment: item !important;
 }
