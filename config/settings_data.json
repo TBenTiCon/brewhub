@@ -11,7 +11,7 @@
     "gradient_background_1": "",
     "colors_background_2": "#c2a178",
     "gradient_background_2": "",
-    "type_header_font": "assistant_n4",
+    "type_header_font": "arvo_n7",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
@@ -434,7 +434,9 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".shopify-policy__container {min-width: 60%; margin-bottom: 3%;}"
+      ".shopify-policy__container {min-width: 60%; margin-bottom: 3%;}",
+      "@font-face {font-family: \"Alfa Slab One\"; src: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0601\/1627\/1236\/files\/AlfaSlabOne-Regular.ttf?v=1695884722\") format(\"truetype\");}",
+      "h1,h2,h3,h4,h5 {color: red !important; font-family: \"Alfa Slab One\" !important;}"
     ]
   }
 }
