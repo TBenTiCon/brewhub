@@ -212,7 +212,8 @@
         "send": "Gửi",
         "post_success": "Cảm ơn đã liên hệ với chúng tôi. Chúng tôi sẽ liên hệ lại với bạn trong thời gian sớm nhất.",
         "error_heading": "Vui lòng điều chỉnh các mục sau:",
-        "title": "Biểu mẫu liên hệ"
+        "title": "Biểu mẫu liên hệ",
+        "checkbox": "Tôi đã đọc và đồng ý với Chính sách quyền riêng tư."
       }
     },
     "404": {
