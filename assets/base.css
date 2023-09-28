@@ -3010,7 +3010,7 @@ h1,h2,h3,h4,h5,h6, h2 span{
 /* Terms and Conditions nested Numberation  */
 
 ol {
-  counter-reset: item;
+  counter-reset: item !important;
 }
 
 li {
@@ -3018,7 +3018,7 @@ li {
 }
 
 li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item;
+  content: counters(item, ".") " " !important;
+  counter-increment: item !important;
 }
 
