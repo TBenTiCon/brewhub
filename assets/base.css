@@ -2964,6 +2964,15 @@ details-disclosure > details {
 
 /* FONTS */
 @font-face {
+  font-family: 'Alfa';
+  src: url("AlfaSlabOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+@font-face {
   font-family: 'Aldivaro';
   src: url("Aldivaro.otf") format("opentype");
   font-weight: normal;
@@ -2989,11 +2998,11 @@ details-disclosure > details {
 }
 
 h1,h2,h3,h4,h5,h6, h2 span{
-  font-family: Aldivaro!important;
+  font-family: Alfa!important;
 }
 
 .lead_text{
-  font-family: Aldivaro!important;
+  font-family: Alfa!important;
 }
 
 
