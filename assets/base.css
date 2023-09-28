@@ -2974,7 +2974,7 @@ details-disclosure > details {
 
 @font-face {
   font-family: 'Aldivaro';
-  src: url("Aldivaro.otf") format("opentype");
+  src: url("AlfaSlabOne-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
