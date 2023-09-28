@@ -3007,4 +3007,18 @@ h1,h2,h3,h4,h5,h6, h2 span{
   text-transform: uppercase;
 }
 
+/* Terms and Conditions nested Numberation  */
+
+ol {
+  counter-reset: item;
+}
+
+li {
+  display: block;
+}
+
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
 
