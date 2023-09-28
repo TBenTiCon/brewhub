@@ -2999,10 +2999,12 @@ details-disclosure > details {
 
 h1,h2,h3,h4,h5,h6, h2 span{
   font-family: Alfa!important;
+  text-transform: uppercase;
 }
 
 .lead_text{
   font-family: Alfa!important;
+  text-transform: uppercase;
 }
 
 
