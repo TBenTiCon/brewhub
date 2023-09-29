@@ -45,7 +45,7 @@
           "settings": {
             "heading": "Chủđề giao hàng",
             "icon": "chat_bubble",
-            "row_content": "<p><\/p><p><strong>Delivery Methods <\/strong><\/p><p>Answer: Smaller Orders will be sent with Grab. Any bigger order will be sent with a logistic partner. <\/p><p> <\/p><p><strong>Delivery Time  <\/strong><\/p><p>Answer: This depends on the availability of the products, the order size as well as the customer location.  <\/p><p> <\/p><p><strong>Delivery Costs <\/strong><\/p><p>Answer: Depends on the order size as well as the customer location. <\/p>",
+            "row_content": "<p><strong>Phương thức giao hang<\/strong><\/p><p>Trả lời: Những đơn hàng nhỏ hơn sẽ được gửi bằng<br\/>Grab. Bất kỳ đơn đặt hàng lớn hơn sẽ được gửi với một đối tác hậu cần.<\/p><p> <\/p><p><strong>Thời gian giao hang<\/strong><\/p><p>Trả lời: Điều này phụ thuộc vào tình trạng sẵn<br\/>có của sản phẩm, quy mô đặt hàng cũng như địa điểm của khách hàng.  <\/p><p> <\/p><p><strong>Chi phí giao hang<\/strong><\/p><p>Trả lời: Phụ thuộc vào quy mô đơn hàng cũng như<br\/>vị trí của khách hàng.<\/p>",
             "page": ""
           }
         },
