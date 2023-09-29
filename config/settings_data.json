@@ -223,6 +223,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "6888881354750101180": {
+        "type": "shopify:\/\/apps\/atranslate-native-translate\/blocks\/arc_language_selector\/5a43365a-5a87-48f0-906c-4c0e220780b8",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
