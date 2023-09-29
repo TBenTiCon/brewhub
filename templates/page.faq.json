@@ -43,7 +43,7 @@
         "16620335682361ab0c-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Delivery matters",
+            "heading": "Chủđề giao hàng",
             "icon": "chat_bubble",
             "row_content": "<p><\/p><p><strong>Delivery Methods <\/strong><\/p><p>Answer: Smaller Orders will be sent with Grab. Any bigger order will be sent with a logistic partner. <\/p><p> <\/p><p><strong>Delivery Time  <\/strong><\/p><p>Answer: This depends on the availability of the products, the order size as well as the customer location.  <\/p><p> <\/p><p><strong>Delivery Costs <\/strong><\/p><p>Answer: Depends on the order size as well as the customer location. <\/p>",
             "page": ""
@@ -52,7 +52,7 @@
         "16620335682361ab0c-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Payment matters",
+            "heading": "Chủđề thanh toán",
             "icon": "chat_bubble",
             "row_content": "<p><\/p><p><strong>What are the methods I can pay with? <\/strong><\/p><p>Answer:<br\/>You are able to pay with credit card. Please view therefore, payment terms.<\/p><p><strong> <\/strong><\/p><p><strong>Where to I receive an invoice? <\/strong><\/p><p>Answer: the invoice will be sent via mail. <\/p>",
             "page": ""
@@ -61,7 +61,7 @@
         "16620335682361ab0c-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "My Account",
+            "heading": "Tàikhoản của tôi",
             "icon": "chat_bubble",
             "row_content": "<p><\/p><p><strong>How can I create an Account? <\/strong><\/p><p>Answer: You can create an account by going to “Log In” and click on “create an account”.<\/p><p> <\/p><p><strong>Where do I change my password? <\/strong><\/p><p>Answer: Change your password within your account settings. <\/p><p> <\/p><p><strong>What can I do when I forget my password? <\/strong><\/p><p>Answer: Click on “Forgot password” when you are trying to login.<\/p><p> <\/p><p><strong>How to change my address? <\/strong><\/p><p>Answer: You can change or add an address within the account settings.<\/p><p> <\/p>",
             "page": ""
@@ -70,7 +70,7 @@
         "16620335682361ab0c-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "My Orders",
+            "heading": "Đơnđặt hàng của tôi",
             "icon": "chat_bubble",
             "row_content": "<p><\/p><p><strong>Where do I receive my order confirmation? <\/strong><\/p><p>Answer: You will receive your order confirmation via mail. If you haven’t received your order confirmation within 24h please contact our support service. <\/p><p> <\/p><p><strong>Where Can I view my order history? <\/strong><\/p><p>Answer: You can find your order history within your account. Follow the <a href=\"https:\/\/www.brewhub.vn\/account\" title=\"https:\/\/www.brewhub.vn\/account\">link<\/a> to view your order history. <\/p><p> <\/p><p><strong>How long does my order take? <\/strong><\/p><p>Answer: This depends on the availability of the products, the order size as well as the customer location. You can track your order with the link within the order confirmation. <\/p><p> <\/p><p><strong>Can I return my order? <\/strong><\/p><p>Answer: No, our products cannot be returned. <\/p>",
             "page": ""
