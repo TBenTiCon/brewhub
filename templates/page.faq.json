@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Chủđề thanh toán",
             "icon": "chat_bubble",
-            "row_content": "<p><\/p><p><strong>What are the methods I can pay with? <\/strong><\/p><p>Answer:<br\/>You are able to pay with credit card. Please view therefore, payment terms.<\/p><p><strong> <\/strong><\/p><p><strong>Where to I receive an invoice? <\/strong><\/p><p>Answer: the invoice will be sent via mail. <\/p>",
+            "row_content": "<p><\/p><p><strong>Tôi có thể thanh toán bằng những phương pháp nào?<\/strong><\/p><p>Trả lời: Bạn có thể thanh toán bằng thẻ tín dụng.<br\/>Do đó, vui lòng xem các điều khoản thanh toán.<\/p><p><strong> <\/strong><\/p><p><strong>Tôi nhận hóa đơn ở đâu?<\/strong><\/p><p>Trả lời: hóa đơn sẽ được gửi qua đường bưu điện.<\/p>",
             "page": ""
           }
         },
