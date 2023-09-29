@@ -67,8 +67,8 @@
                       {%- for link in block.settings.menu.links -%}
                         <li>
                         {% assign full_url = request.host | append: request.path %}
-                        {% if full_url contains ".vn/vi" %}
-                          {% assign link_url = link.url | replace: ".vn/", ".vn/vi/" %}
+                        {% if full_url contains ".vn/en" %}
+                          {% assign link_url = link.url | replace: ".vn/", ".vn/en/" %}
                         {% else %}
                           {% assign link_url = link.url %}
                         {% endif %}
