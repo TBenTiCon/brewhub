@@ -52,7 +52,7 @@
         "16620335682361ab0c-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Chủđề thanh toán",
+            "heading": "Chủ đề thanh toán",
             "icon": "chat_bubble",
             "row_content": "<p><\/p><p><strong>Tôi có thể thanh toán bằng những phương pháp nào?<\/strong><\/p><p>Trả lời: Bạn có thể thanh toán bằng thẻ tín dụng.<br\/>Do đó, vui lòng xem các điều khoản thanh toán.<\/p><p><strong> <\/strong><\/p><p><strong>Tôi nhận hóa đơn ở đâu?<\/strong><\/p><p>Trả lời: hóa đơn sẽ được gửi qua đường bưu điện.<\/p>",
             "page": ""
@@ -61,7 +61,7 @@
         "16620335682361ab0c-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Tàikhoản của tôi",
+            "heading": "Tài khoản của tôi",
             "icon": "chat_bubble",
             "row_content": "<p><strong>Làm cách nào tôi có thể tạo Tài khoản?<\/strong><\/p><p>Trả lời: Bạn có thể tạo tài khoản bằng cách vào<br\/>“Đăng nhập” và nhấp vào “tạo tài khoản”.<\/p><p> <\/p><p><strong>Tôi có thể đổi mật khẩu ở đâu?<\/strong><\/p><p>Trả lời: Thay đổi mật khẩu trong cài đặt tài khoản của<br\/>bạn. <\/p><p> <\/p><p><strong>Tôi có thể làm gì khi quên mật khẩu?<\/strong><\/p><p>Trả lời: Nhấp vào “Quên mật khẩu” khi bạn đang cố gắng<br\/>đăng nhập. <\/p><p> <\/p><p><strong>Làm thế nào để thay đổi địa chỉ của tôi?<\/strong><\/p><p>Trả lời: Bạn có thể thay đổi hoặc thêm địa chỉ<br\/>trong cài đặt tài khoản.<\/p><p> <\/p>",
             "page": ""
@@ -70,7 +70,7 @@
         "16620335682361ab0c-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Đơnđặt hàng của tôi",
+            "heading": "Đơn đặt hàng của tôi",
             "icon": "chat_bubble",
             "row_content": "<p><strong>Tôi nhận được xác nhận đơn hàng ở đâu?<\/strong><\/p><p>Trả lời: Bạn sẽ nhận được xác nhận đơn hàng qua<br\/>đường bưu điện. Nếu bạn chưa nhận được xác nhận đơn hàng trong vòng 24h, vui<br\/>lòng liên hệ với bộ phận hỗ trợ của chúng tôi.<\/p><p> <\/p><p><strong>Tôi có thể xem lịch sử đơn hàng của mình ở đâu?<\/strong><\/p><p>Trả lời: Bạn có thể tìm thấy lịch sử đặt hàng trong<br\/>tài khoản của mình.<\/p><p> <\/p><p><strong>Đơn hàng của tôi mất bao lâu?<\/strong><\/p><p>Trả lời: Điều này phụ thuộc vào tình trạng sẵn<br\/>có của sản phẩm, quy mô đặt hàng cũng như địa điểm của khách hàng. Bạn có thể<br\/>theo dõi đơn hàng của mình bằng liên kết trong phần xác nhận đơn hàng.<\/p><p> <\/p><p><strong>Tôi có thể trả lại đơn hàng của mình không?<\/strong><\/p><p>Trả lời: Không, sản phẩm của chúng tôi không thể được<br\/>trả lại.<\/p>",
             "page": ""
