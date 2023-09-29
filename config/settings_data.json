@@ -169,7 +169,7 @@
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Information",
+              "heading": "Thông tin",
               "menu": "footer-second",
               "social": true,
               "ig_image": "shopify:\/\/shop_images\/pngwing.com.png",
