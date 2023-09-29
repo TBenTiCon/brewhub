@@ -43,7 +43,7 @@
         "16620335682361ab0c-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Chủđề giao hàng",
+            "heading": "Chủ đề giao hàng",
             "icon": "chat_bubble",
             "row_content": "<p><strong>Phương thức giao hang<\/strong><\/p><p>Trả lời: Những đơn hàng nhỏ hơn sẽ được gửi bằng<br\/>Grab. Bất kỳ đơn đặt hàng lớn hơn sẽ được gửi với một đối tác hậu cần.<\/p><p> <\/p><p><strong>Thời gian giao hang<\/strong><\/p><p>Trả lời: Điều này phụ thuộc vào tình trạng sẵn<br\/>có của sản phẩm, quy mô đặt hàng cũng như địa điểm của khách hàng.  <\/p><p> <\/p><p><strong>Chi phí giao hang<\/strong><\/p><p>Trả lời: Phụ thuộc vào quy mô đơn hàng cũng như<br\/>vị trí của khách hàng.<\/p>",
             "page": ""
