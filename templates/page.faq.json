@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Tàikhoản của tôi",
             "icon": "chat_bubble",
-            "row_content": "<p><\/p><p><strong>How can I create an Account? <\/strong><\/p><p>Answer: You can create an account by going to “Log In” and click on “create an account”.<\/p><p> <\/p><p><strong>Where do I change my password? <\/strong><\/p><p>Answer: Change your password within your account settings. <\/p><p> <\/p><p><strong>What can I do when I forget my password? <\/strong><\/p><p>Answer: Click on “Forgot password” when you are trying to login.<\/p><p> <\/p><p><strong>How to change my address? <\/strong><\/p><p>Answer: You can change or add an address within the account settings.<\/p><p> <\/p>",
+            "row_content": "<p><strong>Làm cách nào tôi có thể tạo Tài khoản?<\/strong><\/p><p>Trả lời: Bạn có thể tạo tài khoản bằng cách vào<br\/>“Đăng nhập” và nhấp vào “tạo tài khoản”.<\/p><p> <\/p><p><strong>Tôi có thể đổi mật khẩu ở đâu?<\/strong><\/p><p>Trả lời: Thay đổi mật khẩu trong cài đặt tài khoản của<br\/>bạn. <\/p><p> <\/p><p><strong>Tôi có thể làm gì khi quên mật khẩu?<\/strong><\/p><p>Trả lời: Nhấp vào “Quên mật khẩu” khi bạn đang cố gắng<br\/>đăng nhập. <\/p><p> <\/p><p><strong>Làm thế nào để thay đổi địa chỉ của tôi?<\/strong><\/p><p>Trả lời: Bạn có thể thay đổi hoặc thêm địa chỉ<br\/>trong cài đặt tài khoản.<\/p><p> <\/p>",
             "page": ""
           }
         },
