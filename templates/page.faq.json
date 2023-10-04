@@ -97,25 +97,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "cta": {
-      "type": "cta",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/beer.png",
-        "Heading": "LOREM IPSUM SIT DOLOR AMET",
-        "subHeading": "LOREM IPSUM SIT DOLOR AMET",
-        "button": "LOREM IPSUM SIT DOLOR AMET",
-        "link": "\/",
-        "heading_width": 1,
-        "heading_centered": true,
-        "padding_top": 100,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "1662033679e11a53e9",
-    "1662033568f093f983",
-    "cta"
+    "1662033568f093f983"
   ]
 }
