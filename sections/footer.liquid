@@ -49,6 +49,7 @@
             assign footer_grid_class = 'grid--3-col-tablet'
           endif
         -%}
+      {% assign moit_written = false %}
         <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
           {%- for block in section.blocks -%}
             <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
@@ -112,7 +113,10 @@
                           </a>
                         </li>
                       {%- endif -%}
-                      <li><a href="http://online.gov.vn/Home/WebDetails/107402"><img class="moit-vertification" alt="MOIT Certification" title="" loading="eager" src='https://cdn.shopify.com/s/files/1/0601/1627/1236/files/logoSaleNoti.png?v=1697524934'/></a></li>
+                      {% if moit_written != true %}
+                        <li><a href="http://online.gov.vn/Home/WebDetails/107402"><img class="moit-vertification" alt="MOIT Certification" title="" loading="eager" src='https://cdn.shopify.com/s/files/1/0601/1627/1236/files/logoSaleNoti.png?v=1697524934'/></a></li>
+                        {% assign moit_written = true %}
+                      {% endif %}
                     </ul>
                   {%- endif -%}
                 {%- when 'image' -%}
