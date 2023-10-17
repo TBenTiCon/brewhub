@@ -3022,3 +3022,8 @@ ol > li:before {
   counter-increment: item !important;
 }
 
+/* Footer MOIT Styling  */
+
+.moit-vertification {
+    width: 150px;
+}
