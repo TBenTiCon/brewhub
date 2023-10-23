@@ -2976,8 +2976,8 @@ details-disclosure > details {
 
 @font-face {
   font-family: 'Rowdies';
-  src: url("Rowdies-Regular.ttf") format("truetype"),
-    url("Rowdies-Bold.ttf") format("truetype");
+  src: url("Rowdies-Regular.woff") format("woff"),
+    url("Rowdies-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
