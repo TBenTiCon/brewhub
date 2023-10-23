@@ -3003,7 +3003,7 @@ h1,h2,h3,h4,h5,h6, h2 span{
 }
 
 .lead_text{
-  font-family: Rowdies!important;
+  font-family: Rowdies !important;
   text-transform: uppercase;
 }
 
