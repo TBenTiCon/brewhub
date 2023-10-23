@@ -2975,6 +2975,14 @@ details-disclosure > details {
   -moz-osx-font-smoothing: antialiased;
 }
 
+@font-face {
+  font-family: 'Rowdies';
+  src: url("Rowdies-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
 
 *{
   font-family: "Open Sans"!important;
