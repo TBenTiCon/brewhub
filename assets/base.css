@@ -2965,7 +2965,7 @@ details-disclosure > details {
 /* FONTS */
 @font-face {
   font-family: 'Rowdies';
-  src: url("Rowdies-Regular.ttf") format("truetype");
+  src: url("Rowdies-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -2974,7 +2974,7 @@ details-disclosure > details {
 
 @font-face {
   font-family: 'Aldivaro';
-  src: url("Rowdies-Regular.ttf") format("truetype");
+  src: url("Rowdies-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
